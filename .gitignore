@@ -1,0 +1,11 @@
+# dependencies
+node_modules/
+# python (not used by this desktop-only plugin, but keep stray venvs out)
+.venv/
+__pycache__/
+*.pyc
+# editors / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

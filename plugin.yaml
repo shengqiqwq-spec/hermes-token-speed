@@ -1,0 +1,23 @@
+manifest_version: 2
+name: token-speed
+label: Token Speed
+version: "1.0.0"
+description: Live token generation speed plus session-wide up/down token totals in the Desktop status bar, with a click-through dashboard (60s sparkline, per-turn tokens, cache hit, context usage, cost).
+author: seagull
+license: MIT
+homepage: https://github.com/seagull/hermes-token-speed
+tags:
+  - desktop
+  - statusbar
+  - tokens
+  - usage
+  - observability
+kind: standalone
+platforms:
+  - desktop
+requires_hermes: ">=0.23.0"
+capabilities:
+  provides_tools: []
+  provides_hooks: []
+  provides_middleware: []
+  requires_env: []
