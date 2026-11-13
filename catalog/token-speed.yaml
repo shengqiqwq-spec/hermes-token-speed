@@ -1,0 +1,22 @@
+name: token-speed
+repo: https://github.com/OWNER/hermes-token-speed
+sha: 5a9a674bcadf26bfcf42475b6576f19d7173339d
+subdir: ""
+title: Token Speed
+description: 'Live token generation speed plus session up/down token totals in the Hermes Desktop status bar, with a click-through dashboard: 60-second sparkline, this-turn output tokens, model, call count, average t/s, cache hit %, context usage % and estimated cost. Speed is estimated from a 2-second sliding window of streamed characters and continuously recalibrated against the session''s authoritative UsageStats, so mixed English/CJK traffic tracks without a fixed heuristic. Desktop-only (desktop/plugin.js inside the plugin SDK surface); no agent tools, hooks, middleware, env vars, network calls or file writes.'
+maintainer: OWNER
+tier: community
+category: desktop
+version: "1.0.0"
+requires_hermes: ">=0.23.0"
+docs_url: https://github.com/OWNER/hermes-token-speed#readme
+image: https://raw.githubusercontent.com/OWNER/hermes-token-speed/5a9a674bcadf26bfcf42475b6576f19d7173339d/assets/statusbar.png
+screenshots:
+  - https://raw.githubusercontent.com/OWNER/hermes-token-speed/5a9a674bcadf26bfcf42475b6576f19d7173339d/assets/statusbar.png
+  - https://raw.githubusercontent.com/OWNER/hermes-token-speed/5a9a674bcadf26bfcf42475b6576f19d7173339d/assets/chip.png
+platforms: []
+capabilities:
+  provides_tools: []
+  provides_hooks: []
+  provides_middleware: []
+  requires_env: []
